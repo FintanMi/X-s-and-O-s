@@ -13,7 +13,8 @@ while play_game:
     os.system('cls' if os.name == 'nt' else 'clear')
     playing_board(positions)
     goes_first = who_starts_game()
-    print(goes_first + ' will start the game')   
+    print(goes_first + ' will start the game')
+    print("Player " + str((turn % 2) + 1) + "'s turn: Pick a position")
 
     # let player know if turn is invalid
     if previous_turn == turn:
