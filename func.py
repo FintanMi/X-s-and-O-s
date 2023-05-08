@@ -1,3 +1,4 @@
+# draw board
 def playing_board(positions):
 
     board = (f"{positions[1]}|{positions[2]}|{positions[3]}\n"
