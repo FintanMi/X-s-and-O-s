@@ -29,7 +29,7 @@ def main():
         previous_turn = turn
 
         # Get input from player
-        choice = input()
+        choice = input('\n')
 
         if choice == 'q':
             play_game = False
@@ -60,11 +60,11 @@ def main():
         print('Tie game')
 
     print('Thanks for playing!')
-    replay = input('Would you like to play again? y or n?')
+    replay = input('Would you like to play again? y or n?\n')
 
     if (replay == 'y'):
         main()
     else:
         print('Thanks for playing, goodbye!')
-        
+
 main()   
