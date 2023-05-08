@@ -21,7 +21,7 @@ def main():
             print(goes_first + ' will start the game')
             firstGo = False
 
-        print("Player " + str((turn % 2) + 1) + "'s turn: Pick a position")
+        print("Pick a position on the board, any number from 1 - 9")
 
         # let player know if turn is invalid
         if previous_turn == turn:
@@ -67,4 +67,4 @@ def main():
     else:
         print('Thanks for playing, goodbye!')
 
-main()   
+main()
