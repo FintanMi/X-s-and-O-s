@@ -7,14 +7,19 @@ play_game = True
 game_finished = False
 turn = 0
 previous_turn = -1
+firstGo = True
 
 while play_game:
     # Resets the screen to show one board
     os.system('cls' if os.name == 'nt' else 'clear')
     
     playing_board(positions)
-    goes_first = who_starts_game()
-    print(goes_first + ' will start the game')
+    
+    # shows which player starts the game
+    if (firstGo):
+        goes_first = who_starts_game()
+        print(goes_first + ' will start the game')
+        firstGo = False
 
     print("Player " + str((turn % 2) + 1) + "'s turn: Pick a position")
 
