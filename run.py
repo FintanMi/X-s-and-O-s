@@ -60,4 +60,11 @@ def main():
         print('Tie game')
 
     print('Thanks for playing!')
+    replay = input('Would you like to play again? y or n?')
+
+    if (replay == 'y'):
+        main()
+    else:
+        print('Thanks for playing, goodbye!')
+        
 main()   
