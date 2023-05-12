@@ -14,7 +14,7 @@ oauthlib==3.2.0
 Pygments==2.11.2
 PyGObject==3.42.1
 PyJWT==2.3.0
-pyparsing==3.0.9
+pyparsing
 python-apt
 PyYAML==5.4.1
 SecretStorage==3.3.1
