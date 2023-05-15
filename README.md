@@ -29,7 +29,7 @@ The following git commands were used throughout development to push code to the 
 
 ```git add <file>``` - This command was used to add the files to the staging area before they are committed.
 
-```git commit -m â€œcommit messageâ€``` - This command was used to commit changes to the local repository queue ready for the final step.
+```git commit -m "message"``` - This command was used to commit changes to the local repository queue ready for the final step.
 
 ```git push``` - This command was used to push all committed code to the remote repository on github.
 
