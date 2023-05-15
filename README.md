@@ -13,6 +13,13 @@ From a user perspective:
 ** Error Handling **
 Error handling was implemented throughout the development of the game to make sure a player couldn't pick a position that has already been selected and only numbers from one to nine were allowed
 
+## Logical Flow
+**Game Flow**
+![Game Flow](docs/screenshots/game_flow.JPG)
+
+**Win Check**
+![Win Check](docs/screenshots/win_check.JPG)
+
 ## Technology
 * Python was the only technology used for this application. The were two Python packages utilised during production - os and random.
 * OS was used to reset the board 
