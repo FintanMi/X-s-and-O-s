@@ -1,6 +1,7 @@
 # X's and O's (Tic Tac Toe/Noughts & Crosses)
 ## Introduction
 The aim of this project was to create a site that allowed visitors to play X's and O's (Tic Tac Toe/Noughts and Crosses) against each other.
+![X's and O's](docs/x-o.JPG)
 ### Target Audience
 * Anyone who wants to play this classic game online instead of using a pen and paper
 ### User Stories
