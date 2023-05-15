@@ -15,10 +15,10 @@ Error handling was implemented throughout the development of the game to make su
 
 ## Logical Flow
 **Game Flow**
-![Game Flow](docs/screenshots/game_flow.JPG)
+![Game Flow](docs/game_flow.JPG)
 
 **Win Check**
-![Win Check](docs/screenshots/win_check.JPG)
+![Win Check](docs/win_check.JPG)
 
 ## Technology
 * Python was the only technology used for this application. The were two Python packages utilised during production - os and random.
