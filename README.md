@@ -10,7 +10,8 @@ From a user perspective:
   * I'd like to see the board being updated on every move
   * I'd like to see a message showing if a player picks a position that has already been taken & must pick a different spot
   * I'd like to see a message congratulating the winner or saying the game was a tie
-  * I'd like to be asked if I want to play the game again# 
+  * I'd like to be asked if I want to play the game again
+
 ** Error Handling **
 Error handling was implemented throughout the development of the game to make sure a player couldn't pick a position that has already been selected and only numbers from one to nine were allowed
 
