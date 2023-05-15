@@ -51,3 +51,5 @@ When attempting to deploy the game to Heroku, I got the following error:
     * ERROR: No matching distribution found for python-apt==2.4.0
 I found help on slack where I was directed to remove '==2.4.0' from python-apt as it would install the correct version but this didn't help. I contacted tutor support and after talking through the issue I was recommended to remove everything from the requirements.txt file and deploy the game again. This solved the deployment issue.
 
+## Credits
+[Youtube tutorial](https://www.youtube.com/watch?v=Q6CCdCBVypg&ab_channel=CDcodes) & the Udemy course 'The Complete Python Bootcamp From Zero to Hero in Python' - Section 7 -> These tutorials helped with game flow, functions and handling checks for winning combinations.
