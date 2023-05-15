@@ -15,9 +15,11 @@ Error handling was implemented throughout the development of the game to make su
 
 ## Logical Flow
 **Game Flow**
+
 ![Game Flow](docs/game_flow.JPG)
 
 **Win Check**
+
 ![Win Check](docs/win_check.JPG)
 
 ## Technology
