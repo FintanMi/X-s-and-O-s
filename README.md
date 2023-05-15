@@ -28,7 +28,7 @@ Error handling was implemented throughout the development of the game to make su
 * Random was used to decide which player starts the game
 
 ## PEP8 Validation
-All python code was put through pythonchecker.com validator and any warnings were corrected.
+All python code was put through https://pep8ci.herokuapp.com/ validator and any warnings were corrected.
 
 ## Deployment
 
